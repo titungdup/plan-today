@@ -1,8 +1,8 @@
 import React from "react";
 
-const Content = () => {
+const Content = ({classList, handleShowInfo}) => {
   return (
-    <div className="content">
+    <div className={`content ${classList || ""}`}>
       <p>PlanToday is a very simple and minimal planner application.</p>
       <p>
         It allows you to plan what you are going to do on a present day and
@@ -10,7 +10,7 @@ const Content = () => {
       </p>
       <p>
         This is not a journal or a progress tracker or tracker of any sort as it
-        doesn’t save your any info or progress. Use it to have a clear view of
+        doesn’t save your todo's or progress. Use it to have a clear view of
         your day at hand and just focus on making the best out of it without
         worrying about any other things.
       </p>
@@ -18,6 +18,7 @@ const Content = () => {
         For best experience, use it on a phone and add it on your home screen
         for easy access.
       </p>
+      <button className="btn btn-close" onClick={()=>handleShowInfo()} >[close]</button>
     </div>
   );
 };
