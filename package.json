@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Simple minimal planner",
   "author": "Dhondup Lama <dup.titung@gmail.com>",
-  "contributors": ["Puncoz Nepal <info@puncoz.com>"],
+  "contributors": [
+    "Puncoz Nepal <info@puncoz.com>"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
