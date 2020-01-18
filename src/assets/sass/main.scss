@@ -134,7 +134,7 @@ h6 {
   }
   [contenteditable="true"] {
     cursor: text;
-    :empty:before {
+    &:empty:before {
       content: attr(placeholder);
       display: block;
       color: #aaa;
