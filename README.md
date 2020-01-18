@@ -2,7 +2,7 @@ A simple planner application.
 
 ### Install
 ```bash
-git@github.com:duptitung/plan-today.git
+git clone git@github.com:duptitung/plan-today.git
 cd plan-today
 yarn
 ```
